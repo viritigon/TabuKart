@@ -1,5 +1,5 @@
 # TabuKart
-Tabu oynamak için rastgele kart üretici
+Tabu oynamak için rastgele kart üretici      (İndirdikten sonra -main ifadesini silin)
 
 Kartlar Config Dosyasında Bulunuyor.
 Kartlar{
