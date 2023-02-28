@@ -1,7 +1,7 @@
 # TabuKart
 Tabu oynamak için rastgele kart üretici      (İndirdikten sonra -main ifadesini silin)
 
-Kartlar Config Dosyasında Bulunuyor.
+Kartlar Config Dosyasında Bulunuyor. 
 Kartlar{
 "ANA KELİME","birinciyasaklı","ikinciyasaklı","üçüncü yasaklı","dördüncü yasaklı","beşinci yasaklı",
 "ANA KELİME2","birinciyasaklı","ikinciyasaklı","üçüncü yasaklı","dördüncü yasaklı","beşinci yasaklı"
