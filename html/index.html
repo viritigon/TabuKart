@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viri TabuKart</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" id="font">
+</head>
+<body>
+    <div class="container">
+        
+    <div class="cardsix">
+        <div class="topsix"></div>
+        <div class="bottomsix">
+            <div class="topsixone"></div>
+            <div class="topsixtwo"></div>
+            <div class="topsixthree"></div>
+            <div class="topsixfour"></div>
+            <div class="topsixfive"></div>
+        </div>
+    </div>
+
+    <div class="cardfive">
+        <div class="topfive"></div>
+        <div class="bottomfive">
+            <div class="topfiveone"></div>
+            <div class="topfivetwo"></div>
+            <div class="topfivethree"></div>
+            <div class="topfivefour"></div>
+            <div class="topfivefive"></div>
+        </div>
+    </div>
+
+    <div class="cardfour">
+        <div class="topfour"></div>
+        <div class="bottomfour">
+            <div class="topfourone"></div>
+            <div class="topfourtwo"></div>
+            <div class="topfourthree"></div>
+            <div class="topfourfour"></div>
+            <div class="topfourfive"></div>
+        </div>
+    </div>
+
+    <div class="cardthree">
+        <div class="topthree"></div>
+        <div class="bottomthree">
+            <div class="topthreeone"></div>
+            <div class="topthreetwo"></div>
+            <div class="topthreethree"></div>
+            <div class="topthreefour"></div>
+            <div class="topthreefive"></div>
+        </div>
+    </div>
+
+    <div class="cardtwo">
+        <div class="toptwo"></div>
+        <div class="bottomtwo">
+            <div class="toptwoone"></div>
+            <div class="toptwotwo"></div>
+            <div class="toptwothree"></div>
+            <div class="toptwofour"></div>
+            <div class="toptwofive"></div>
+        </div>
+    </div>
+
+    <div class="cardone">
+        <div class="topone"></div>
+        <div class="bottomone">
+            <div class="toponeone"></div>
+            <div class="toponetwo"></div>
+            <div class="toponethree"></div>
+            <div class="toponefour"></div>
+            <div class="toponefive"></div>
+        </div>
+    </div>
+        
+        <button onclick="maincard()" type="submit" class="maincard">          </button>   
+        <button onclick="collect()"  type="submit" class="collect">Gizle      </button>
+        <button onclick="mixcards()" type="submit" class="mix" >Karıştır      </button>
+        <button onclick="sendcode()" type="submit" class="sendcode">^Kart Seç^</button>
+        <button onclick="closegui()" type="submit" class="close">X            </button>
+        
+        <input class="codeone"   type="number" pattern="/^-?\d+\.?\d*$/" placeholder="1" />
+        <input class="codetwo"   type="number" pattern="/^-?\d+\.?\d*$/" placeholder="2" />
+        <input class="codethree" type="number" pattern="/^-?\d+\.?\d*$/" placeholder="3" />
+        <input class="codefour"  type="number" pattern="/^-?\d+\.?\d*$/" placeholder="4" />
+        <input class="codefive"  type="number" pattern="/^-?\d+\.?\d*$/" placeholder="5" />
+        <input class="codesix"   type="number" pattern="/^-?\d+\.?\d*$/" placeholder="6" />
+
+    </div>
+</body>
+</html>
