@@ -11,11 +11,14 @@ Kartlar{
 
 Kartlar isteğe bağlı olarak item tabanlı olabilir. Sadece kod içindeki "gui" öğesini true yada false yapmak gerekiyor.
 
-
+https://youtu.be/f4qgKXLQXFc
 
 --YAPILACAKLAR--
 
 -Kart Sesi
 -Elde Kart Tutma Animasyonu
 -Daha Fazla Kart 
+
+-Lobi Sistemi
+-Puan ve Kronometre
 
